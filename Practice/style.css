@@ -1,0 +1,79 @@
+h1,p {
+    color: brown;
+}
+h1.special {
+    background-color: aqua;
+}
+div>ul>li>a{
+    font-weight: bold;
+    color: darkorange;
+}
+div a {
+    background-color: aquamarine;
+}
+/*
+
+div,h1 {} iss ka matlab haa div or h1 ko target kharo dono par properties apply ho gi.
+
+div>h1 {} iss ka matlab haa div kay ander jo div hein specific ek h1.
+
+div h1 {} iss ka matlab haa haa div ma jitny bhi h1 hein sab pa styling apply ho gaa. */
+
+
+
+h1{
+    text-transform: lowercase;
+}
+p {
+    color: hsla(0, 61%, 27%, 0.283)
+}
+p {
+    text-indent: 40px;
+}
+h1 {
+    color: #ffffff;
+    text-shadow: 10px -10px 10px #008000;
+}
+p:first-line {
+    color: purple
+}
+p:first-letter {
+    font-size: 2em;
+    color: green;
+}
+a:link {
+    color: lightgreen;
+}
+
+a:visited {
+    color: green
+}
+input {
+    background-color: antiquewhite;
+}
+input:focus {
+    background-color: burlywood;
+}
+input:active {
+    background-color: gray;
+    color: white;
+}
+   div {border-width: 10px 10px 10px 10px;
+    border-style: solid double dotted dashed;
+    border-color: red green blue yellow;
+    width: 50%;
+    height: 400px;
+    box-shadow: 10px 10px 1px #105f45;
+
+
+}
+a{
+    cursor: crosshair;
+}
+body{
+    background-image: url(../class-10/images/download.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    /* background-size: cover; */
+    background-position: center ;
+}

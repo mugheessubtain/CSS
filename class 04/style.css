@@ -1,0 +1,31 @@
+*{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    /* background-color: aqua;
+    width: 40%; */
+    font-size: 80px;
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+}
+p{
+    font-size: 45px;
+}
+/* .coverimage{
+    display: block;
+    margin: auto;
+
+} */
+.coverimage{
+    width: 330px;
+    /* border: 2px solid red; 
+    height: 520px; */
+
+}
+div{
+    /* border: 2px solid blue; */
+    width: 330px;
+    margin: auto;
+}

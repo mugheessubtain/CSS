@@ -1,0 +1,15 @@
+h1{
+    color: darkgreen;}
+p{
+    color:navy;
+}
+.special{
+    color:lightgreen;
+}
+*{
+    background-color: antiquewhite;
+}
+#para-1
+{
+    text-decoration: underline;
+}

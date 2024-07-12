@@ -1,0 +1,36 @@
+.container{
+    background-color: pink;
+}
+h1,p{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+h1{
+    width: 50%;
+}
+p{
+    height: 50px;
+    overflow: hidden;
+}
+body{
+    margin: 0;
+}
+.container{
+    padding: 20px;
+}
+h1{
+    border: 5px solid red;
+    /* padding: 10px 20px 30px 40px; */
+    padding-left: 20px;
+    margin: 0;
+}
+p{
+    border: 5px solid red;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 30px;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 0;
+    /* same as margin */
+}

@@ -1,0 +1,13 @@
+div{
+    width: 550px;
+    height: 550px;
+    border: 1px solid red;
+    background-color: black;
+    border-radius: 500px;
+}
+div>img{
+    width: 460px;
+    height: 460px;
+    position: relative;
+    top: 10px;
+}

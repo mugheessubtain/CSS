@@ -1,0 +1,35 @@
+.container{
+    background-color: pink;
+    width: 500px;
+    padding: 50px;
+    text-align: center;
+    /* border: 2px solid red; */
+    margin: auto;
+    /* box-shadow: 2px 2px 10px  black; */
+    box-shadow: 0px 0px 50px black;
+}
+/* .main-container{
+    width: 600px;
+    background-color: white;
+    border: 20px solid green;
+    padding: 5px; 
+} */
+p{
+    /* display: none; */
+     /*yeh hide bhi khar deta haa gap bhi nahi leta  */
+
+    /* visibility: hidden; */
+    /* yeh gap lata haa  */
+    visibility: visible;
+    /* visible khar deta haa default ki tarha */
+}
+/* h2{
+    border: 2px solid red;
+    display: inline-block;
+} */
+.container{
+    /* border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px; */
+    /* border-top-right-radius: 50px; */
+    border: 30px solid red;
+    border-image: url(images/Skull-border.png) 50 50 50 50 repeat;
+}

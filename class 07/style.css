@@ -1,0 +1,37 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    width: 60%;
+    background-color: pink;
+
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    width: 35%;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    margin: auto;
+}
+p{
+    /* font-size: 20px;
+    font-size: 25%; */
+    font-size:1em;
+    text-transform: capitalize;
+    line-height: 1.2em;
+    /* word-spacing: 1.4em; */
+    text-align: justify ;
+
+}
+.diff-size{
+    color: red;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-style:italic;
+}
+a{
+    color:yellow;
+    text-decoration:none;
+}

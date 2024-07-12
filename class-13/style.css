@@ -1,0 +1,32 @@
+/* .col-1{
+    float: left;
+}
+.col-2{
+    position: relative;
+    top: 50px;
+    float: left;
+} */
+h1{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 1px 1px  red;
+
+}
+.col-1, .col-2, .col-3{
+    width: 29%;
+    padding: 2%;
+    float: left;
+}
+.col-2{
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    
+}
+h1:hover{
+    color: red;
+    text-shadow: 1px 1px 10px black;
+}
+p{
+    cursor:crosshair ;
+}

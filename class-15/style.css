@@ -1,0 +1,22 @@
+h3{
+    background-color: antiquewhite;
+    margin: 2px;
+    padding: 2px;
+    height:25px;
+    width: 120px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container{
+    border: 1px solid red;
+    height: 150px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+
+}

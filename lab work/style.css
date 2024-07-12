@@ -1,0 +1,163 @@
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid lightgray;
+    background-color: white;
+    z-index: 10;
+}
+.top-nav>ul{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-evenly;
+    width: 400px; 
+    list-style-type: none;
+    font-size: 20px;
+    text-decoration: none;
+}
+.top-nav>img{
+    height: 66px;
+    padding-left: 10px;
+}
+/* .top-nav>ul>li{
+  
+} */
+.top-nav>ul>li:hover{
+    text-decoration: underline;
+    
+}
+.top-nav>ul>li>a{
+    color: #8dc63f;
+    text-decoration: none;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.green-bar{
+    height: 80px;
+    width: 400px;
+    background-color: #8dc63f;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 30%;
+    
+}
+.paras-container{
+    display: flex;
+    position: relative;
+    top: 60px;
+    /* border: 2px solid rebeccapurple; */
+    width:66% ;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.paras{
+    width: 29%;
+    padding: 2%;
+}
+.paras-container>.paras>img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -10px;
+    left: 50px;
+}
+.chat-container{
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+}
+.chat-container>img{
+    width: 70px;
+    height: 70px;
+}
+/* body{
+    background-image: url(images/Saylani-Welfare.jpg); 
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-position: center;
+    background-size: cover;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:600px)
+{
+    .top-nav{
+        flex-direction: column;
+        /* border: 1px solid rebeccapurple; */
+        position: static;
+    }
+    .green-bar{
+        display: none;
+    }
+    
+    .top-nav>ul{
+        position: relative;
+        top: -15px;
+        flex-direction: column;
+        align-items: center;
+        background-color: #8dc63f;
+        color: white;
+        width: 100%;
+    }
+    .top-nav>ul>li>a{
+        color: white;
+    }
+    .paras-container{
+        flex-direction: column;
+        align-items: center;
+        top: 65px;
+        
+    }
+    .paras{
+        width: 100%;
+        text-align: center;
+    }
+    .paras-container>.paras>img{
+        left: 0;
+    }
+    .chat-container>img{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+

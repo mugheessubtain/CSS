@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "faster stroke";
+    src: url("fonts/Faster\ Stroker.otf");
+}
+*{
+    background-color:pink ;
+    font-family: "faster stroke";
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    border: 2px solid black
+}
+ /* h1+p{
+    background-color: aliceblue;
+}
+h1~p{
+    background-color:aliceblue ;
+} */
+p{
+    text-indent:40px;
+    padding: 10px;
+    margin:10px;
+    width:80%;
+    margin: auto;
+} 
+h1{
+    color: white;
+    text-shadow:  2px 4px 4px green;
+    text-align: center;
+
+}
+h1:hover{
+    color:white;
+    text-shadow: 2px 4px 4px black ;
+}
+a:visited{
+    color: white;
+
+}
+
+a:link{
+    color:red;
+}
+div{
+    border: 2px solid navajowhite;
+    width:30%;
+   margin: auto;
+}

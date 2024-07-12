@@ -1,0 +1,37 @@
+/* @font-face {
+    font-family: flame-bold;
+    src: url(font/Flame\ Bold.ttf);
+}  */
+*{
+    color: white;
+    font-family: flame-bold;
+    background-color: #f5ebdc;
+    margin: 0;
+    padding:0;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #d0c8bb;
+}
+.nav-bar>img{
+    padding-left: 50px;
+}
+.nav-btns{
+    padding-right:  50px;
+}
+.signin-btn{
+    background-color: #d62300;
+    padding: 8px;
+    border-radius: 25px;
+    width: 135px;
+    border: 0px solid black;
+}
+.signup-btn{
+    background-color: #502314;
+    padding: 8px;
+    width: 80px;
+    border-radius: 25px;
+    border: 0px solid black;
+}
